@@ -1,5 +1,5 @@
 import React from "react";
-import {BrowserRouter,  Route} from "react-router-dom";
+import { Route} from "react-router-dom";
 
 
 // Components
@@ -16,15 +16,12 @@ const App = ()=>{
    
       <div>       
       <Navbar/>     
-     <BrowserRouter>
+    
            <Route exact path="/" component={Home} />
-           <Route  path="/resume"  component={ResumePage} />
-           <Route  path="/projects"  component={Project} />
-           <Route  path="/blogs"  component={Blogs} />
-           <Route  path="/about"  component={About} />
-
-           </BrowserRouter>
-          
+           <Route  path="./#/resume"  component={ResumePage} />
+           <Route  path="./#/projects"  component={Project} />
+           <Route  path="./#/blogs"  component={Blogs} />
+           <Route  path="./#/about"  component={About} />
 
     </div>
 
