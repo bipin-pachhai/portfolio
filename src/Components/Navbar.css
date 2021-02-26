@@ -1,0 +1,17 @@
+@font-face {
+    font-family: PoppinsRegular;
+    src: url('../fonts/Poppins-Regular.ttf');
+  }
+  @font-face {
+    font-family: MontserratBold;
+    src: url('../fonts/Montserrat-Bold.ttf');
+  }
+#navigation-items {
+   
+    font-family: 'PoppinsRegular';
+    font-weight: bold;
+    display: flex;
+    align-items: flex-end;
+  }
+  
+  

@@ -1,0 +1,130 @@
+@font-face {
+    font-family: AbrilFatface;
+    src: url('../fonts/AbrilFatface-Regular.ttf');
+  }
+  @font-face {
+    font-family: MontserratBold;
+    src: url('../fonts/Montserrat-Bold.ttf');
+  }
+  @font-face {
+    font-family: RalewayBlack;
+    src: url('../fonts/Raleway-Black.ttf');
+  }
+/*react particles design */
+  .particles {
+    width: 100vw;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+  }
+  .home {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    text-decoration: none;
+    box-sizing: border-box;
+    padding: 0.8rem;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .header span {
+    color: rgba(0,255,0,.75);
+    text-shadow: none;
+  
+  }
+
+  .header {
+    box-sizing: border-box;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; 
+    margin-left: 10rem;
+    letter-spacing: 3px;
+    color: rgba(0,255,0,.75);
+    text-align: left;
+  }
+  
+  .home-container {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 2rem;
+  }
+
+  .home-container img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+  }
+  .intro {
+    box-sizing: border-box;
+    margin: 2rem 2rem;
+    font-size: 1.3rem;
+    color: aliceblue;
+  }
+
+
+  
+/* Typing Animation  for the intro*/
+
+@keyframes typing {
+  from { width: 100% }
+  to { width: 0 }
+  
+}
+
+.typecontainer {
+position: relative;  
+}
+
+p .typing {
+position: absolute;
+top: 0;
+margin: 0;
+z-index: -1;
+}
+
+.hiders {
+margin: 0;
+position: absolute;
+top: 0;
+width: 100%;
+}
+
+.hiders p {
+position: relative; 
+clear: both; 
+margin: 0;
+float: right; /* makes animation go left-to-right */
+width:0; /* graceful degradation: if animation doesn't work, these are invisible by default */
+background: linear-gradient(90deg, #202020 50%, #202020 50%);
+background-color: #fffefe; 
+animation: typing 2s steps(30, end), infinite;
+animation-fill-mode: both;  /* load first keyframe on page load, leave on last frame at end */
+}
+
+.hiders p:nth-child(2) {
+animation-delay: 2s;
+
+}
+.hiders p:nth-child(3) {
+animation-delay: 4s;
+}
+.hiders p:nth-child(4) {
+animation-delay: 6s;
+}
+.hiders p:nth-child(5) {
+animation-delay: 8s;
+}
+.hiders p:nth-child(6) {
+  animation-delay: 9s;
+  }
+  .hiders p:nth-child(7) {
+    animation-delay: 11s;
+    }
+
+

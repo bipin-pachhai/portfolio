@@ -1,0 +1,14 @@
+.slider{
+   margin-top: 35vh;
+   border-radius: 50%;
+}
+
+.slider:hover{
+   cursor: pointer;
+   transform: scale(1.3);  
+
+}
+ .image {
+   width: 90vh;
+   height: 70vh;  
+ } 

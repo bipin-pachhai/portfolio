@@ -1,0 +1,52 @@
+
+  .contactsection {
+    box-sizing: border-box;
+    height: 80vh;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 2rem;
+   
+  }
+
+  .logo {
+    margin: 0.5rem;
+    padding: 0.5rem;
+  }
+
+ .logo a{
+    text-decoration: none;
+    color: whitesmoke;
+  
+
+  }
+
+  .logoImage {
+    margin-left: 1rem;
+    transition: all 0.1s ease-in-out;
+  }
+  .logoImage:hover {
+    cursor: pointer;
+    transform: scale(1.6);
+  }
+
+.formsection{
+      justify-content: end; 
+      display: inline-block;
+      margin-top: 2rem;
+      height: 80vh;
+      border-radius: 20px;
+      color: darkblue;
+      padding: 1rem;
+      margin-left: 70%;
+     
+
+}
+.formgroup{
+  margin-top: 2rem;
+  padding: 1rem;
+
+}
+ 
+ 

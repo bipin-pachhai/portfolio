@@ -1,0 +1,108 @@
+@font-face {
+    font-family: AbrilFatface;
+    src: url('../fonts/AbrilFatface-Regular.ttf');
+  }
+  @font-face {
+    font-family: MontserratBold;
+    src: url('../fonts/Montserrat-Bold.ttf');
+  }
+  @font-face {
+    font-family: Poppins;
+    src: url('../fonts/Poppins-Regular.ttf');
+  }
+  @font-face {
+    font-family: Raleway;
+    src: url('../fonts/Raleway-Regular.ttf');
+  }
+ 
+  .resume {
+    text-decoration: none;
+    overflow-y: auto;
+    box-sizing: border-box;
+    word-wrap: break-word;
+    display: flex;
+    height: 80vh;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-family: MontserratBold;
+    color: rgb(255, 255, 255);
+  }
+  .rightSide {
+    height: 90vh;
+  }
+  .resume .logoImage {
+    margin-left: 2rem;
+    transition: all 0.2s ease-in-out;
+  }
+  .resume .logoImage:hover {
+    cursor: pointer;
+    transform: scale(1.6);
+  }
+  .highlight {
+    box-sizing: border-box;
+    color: #fff;
+    padding: 0.2rem;
+    background-color: #797979;
+    margin: 0.5rem 0;
+    margin-top: 1rem;
+  }
+  .resume .end-to-end {
+    font-family: Poppins;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 100%;
+  }
+  .resume .left-end {
+    margin-right: auto;
+    text-align: start;
+  }
+  .resume .right-end {
+    margin-right: 0.1rem;
+    text-align: end;
+  }
+ a{
+  color: #124BFF;
+
+  }
+  .resume .description {
+    font-family: Raleway;
+    text-align: start;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+  }
+  .resume .sub-head {
+    font-weight: bold;
+  }
+  .resume .location {
+    font-style: italic;
+  }
+  .resume .date {
+    color: #918f92;
+    font-weight: bold;
+  }
+  .resume ul {
+    margin: 0.5rem;
+    text-align: start;
+  }
+  .resume .resume-links {
+    box-sizing: border-box;
+    font-size: 2rem;
+    font-family: RalewayBlack;
+    letter-spacing: 3px;
+    color: rgb(255, 255, 255);
+    text-align: left;
+  }
+  @media (max-width: 1000px), (width: 1000px) {
+    .resume {
+      height: 100%;
+    }
+    .rightSide {
+      height: 100%;
+      margin-bottom: 15px;
+    }
+  }
+  
