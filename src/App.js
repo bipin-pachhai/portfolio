@@ -14,16 +14,17 @@ import Navbar from "./Components/Navbar";
 const App = ()=>{
     return(
    
-      <div>       
-      <Navbar/>     
+         
+          
         <Router  basename='/'>
+        <Navbar/> 
            <Route exact path="/" component={Home} />
            <Route  path="/resume"  component={ResumePage} />
            <Route  path="/projects"  component={Project} />
            <Route  path="/blogs"  component={Blogs} />
            <Route  path="/about"  component={About} />
           </Router>
-    </div>
+  
 
     )
 }
