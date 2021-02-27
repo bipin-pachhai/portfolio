@@ -16,7 +16,7 @@ const App = ()=>{
    
       <div>       
       <Navbar/>     
-        <Router>
+        <Router  basename='/'>
            <Route exact path="/" component={Home} />
            <Route  path="/resume"  component={ResumePage} />
            <Route  path="/projects"  component={Project} />
