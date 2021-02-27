@@ -1,6 +1,6 @@
 import React from 'react';
 import "./Navbar.css";
-//import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 
 const Navbar = ()=>{
@@ -13,29 +13,20 @@ const Navbar = ()=>{
     <div  className = "collapse navbar-collapse justify-content-end mr-0" id="navigation-items">
       <ul className = "navbar-nav ms-auto ">
       <li className="nav-item px-5">
-                <a className="nav-link text-white" href= '/'>
-                  HOME
-                </a>
+            <Link className='nav-link text-white' to="/">HOME</Link>
+                 
                 </li>
                <li className="nav-item px-5">
-                <a className="nav-link text-white" href= '/resume'>
-                RESUME
-                </a>
+               <Link className='nav-link text-white' to="/projects">PROJECTS</Link>
                 </li>
                 <li className="nav-item px-5">
-                <a className="nav-link text-white" href="/projects" >
-                 PROJECTS
-                </a>
+                <Link className='nav-link text-white' to="/resume">RESUME</Link>
                 </li>
                 <li className="nav-item px-5">
-                <a className="nav-link text-white" href="/blogs">
-                 BLOGS
-                </a>
+                <Link className='nav-link text-white' to="/blogs">BLOGS</Link>
               </li>
               <li className="nav-item px-5">
-                  <a className="nav-link text-white" href="/about">
-                  ABOUT
-                  </a>
+              <Link className='nav-link text-white' to="/about">ABOUT</Link>
              </li>
       </ul>
 
