@@ -1,0 +1,23 @@
+.portfolio-projects {
+  color: #ffffff;
+  background-color: #3e4c59;
+}
+
+.portfolio-project-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #1d1920;
+}
+
+.project-para {
+  color: #9aa5b1;
+}
+.project-link {
+  align-self: flex-end;
+}
+.project-link > span,
+.project-link > svg {
+  color: red;
+}

@@ -31,10 +31,7 @@ export const resumeConstant = [
     <div className='highlight'>ABOUT</div>
     <div className='description'>
       {' '}
-      I am an aspiring SWE and a sophomore at University of New Orleans. I am interested in building and adding features on web and
-       mobile applications. I am currently seeking an internship role
-       related to Computer Science and Technology for personal growth and hands-on industrial
-      experience.
+      An aspiring Software Engineer and a junior at University of New Orleans. An individual with entrepreneurial spirit. A team player recognized for an innovative approach. 
     </div>
     {/* education */}
     <div className='highlight'>EDUCATION</div>

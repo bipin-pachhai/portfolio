@@ -1,17 +1,32 @@
 @font-face {
-    font-family: PoppinsRegular;
-    src: url('../fonts/Poppins-Regular.ttf');
-  }
-  @font-face {
-    font-family: MontserratBold;
-    src: url('../fonts/Montserrat-Bold.ttf');
-  }
-#navigation-items {
-   
-    font-family: 'PoppinsRegular';
-    font-weight: bold;
-    display: flex;
-    align-items: flex-end;
-  }
-  
-  
+  font-family: PoppinsRegular;
+  src: url("../fonts/Poppins-Regular.ttf");
+}
+@font-face {
+  font-family: MontserratBold;
+  src: url("../fonts/Montserrat-Bold.ttf");
+}
+
+
+.navLink {
+  font-family: "PoppinsRegular" !important;
+  color: white !important;
+  font-weight: bolder !important;
+  margin-right: 30px;
+}
+.transparent {
+  background-color: transparent !important;
+}
+a {
+  font-family: "PoppinsRegular" !important;
+  color: white !important;
+  font-weight: bold !important;
+  align-items: flex-end !important;
+  text-decoration: none !important;
+  margin-left: 25px !important;
+}
+.navbar-brand {
+  font-family: "MontserratBold" !important;
+  color: rgb(255, 255, 255) !important ;
+  font-weight: bolder !important;
+}

@@ -19,6 +19,10 @@
     right: 0;
     z-index: -1;
   }
+  .homepage{
+    margin-top: 5rem;
+
+  }
   .home {
     font-family: 'Courier New', Courier, monospace;
     font-size: larger;
@@ -30,6 +34,7 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
+    
   }
   .header span {
     color: rgba(0,255,0,.75);
@@ -67,64 +72,13 @@
     color: aliceblue;
   }
 
-
   
-/* Typing Animation  for the intro*/
-
-@keyframes typing {
-  from { width: 100% }
-  to { width: 0 }
-  
-}
-
 .typecontainer {
-position: relative;  
-}
-
-p .typing {
-position: absolute;
-top: 0;
-margin: 0;
-z-index: -1;
-}
-
-.hiders {
-margin: 0;
-position: absolute;
-top: 0;
-width: 100%;
-}
-
-.hiders p {
-position: relative; 
-clear: both; 
-margin: 0;
-float: right; /* makes animation go left-to-right */
-width:0; /* graceful degradation: if animation doesn't work, these are invisible by default */
-background: linear-gradient(90deg, #202020 50%, #202020 50%);
-background-color: #fffefe; 
-animation: typing 2s steps(30, end), infinite;
-animation-fill-mode: both;  /* load first keyframe on page load, leave on last frame at end */
-}
-
-.hiders p:nth-child(2) {
-animation-delay: 2s;
-
-}
-.hiders p:nth-child(3) {
-animation-delay: 4s;
-}
-.hiders p:nth-child(4) {
-animation-delay: 6s;
-}
-.hiders p:nth-child(5) {
-animation-delay: 8s;
-}
-.hiders p:nth-child(6) {
-  animation-delay: 9s;
+  position: relative;  
   }
-  .hiders p:nth-child(7) {
-    animation-delay: 11s;
-    }
+
+
+  
+
 
 

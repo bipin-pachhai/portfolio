@@ -1,52 +1,60 @@
-
-  .contactsection {
-    box-sizing: border-box;
-    height: 80vh;
-    text-decoration: none;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding-top: 2rem;
-   
-  }
-
-  .logo {
-    margin: 0.5rem;
-    padding: 0.5rem;
-  }
-
- .logo a{
-    text-decoration: none;
-    color: whitesmoke;
-  
-
-  }
-
-  .logoImage {
-    margin-left: 1rem;
-    transition: all 0.1s ease-in-out;
-  }
-  .logoImage:hover {
-    cursor: pointer;
-    transform: scale(1.6);
-  }
-
-.formsection{
-      justify-content: end; 
-      display: inline-block;
-      margin-top: 2rem;
-      height: 80vh;
-      border-radius: 20px;
-      color: darkblue;
-      padding: 1rem;
-      margin-left: 70%;
-     
-
+.contactsection {
+  box-sizing: border-box;
+  height: 80vh;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 2rem;
 }
-.formgroup{
-  margin-top: 2rem;
+.nav-item {
+  cursor: pointer !important;
+}
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background-color: transparent !important;
+  border: 3px solid white !important;
+  border-radius : 1rem;
+  left: 4rem;
+}
+
+.logo {
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+
+.logo a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.logoImage {
+  transition: all 0.1s ease-in-out;
+}
+.logoImage:hover {
+  cursor: pointer;
+  transform: scale(1.6);
+}
+
+.formsection {
+  border-radius: 20px;
+  background: #ffffff69;
+  color: #ffffff;
   padding: 1rem;
-
 }
- 
- 
+.formgroup {
+  margin-top: 2rem;
+}
+
+.fly-in {
+  animation: fly-in 0.3s ease-in;
+}
+
+@keyframes fly-in {
+  0% {
+    transform: translateX(-30px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
