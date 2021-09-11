@@ -50,6 +50,35 @@ export const resumeConstant = [
     {/* experience */}
     <div className='highlight'>EXPERIENCE</div>
     <div className='end-to-end'>
+      <div className='sub-head left-end'>Flutter(Android/iOS)/Full Stack Web Developer</div>
+      <div className='date right-end'> 04/2021 - Present</div>
+    </div>
+    <div className='end-to-end'>
+      <div className='left-end'>Products: Storeplus Mobile App, Storeplus Web App</div>
+      <div className='location right-end'></div>
+    </div>
+    <div className='description'>
+      {' '}
+      <ul>
+        <li>
+          {' '}
+          	Worked on central state and route management using Flutter GetX Ecosystem{' '}
+        </li>
+        <li>
+        Created an improved excel file and barcode read system on the wholesaler’s dashboard to facilitate faster inventories upload. 
+        </li>  
+        <li>
+        Modeled Firestore database and Storage bucket for both wholesalers and retailers. 
+        </li>  
+        <li>
+        Implemented login/signup logic using firebase authentication and worked on security rules for the Firestore collections. 
+        </li>  
+        <li>
+        Set up GitHub actions for the automatic deployment of web app to Firebase Hosting. 
+        </li>  
+      </ul>
+    </div>
+<div className='end-to-end'>
       <div className='sub-head left-end'>Information Technology Support</div>
       <div className='date right-end'> 01/2020 - 05/2020</div>
     </div>
@@ -102,7 +131,7 @@ export const resumeConstant = [
     {/* projects */}
     <div className='highlight'>PROJECTS</div>
     <div className='end-to-end'>
-      <div className='sub-head left-end'>Contact Book</div>
+      <div className='sub-head left-end'>Discord Bot</div>
       <div className='date right-end'>
         {' '}
         <a
@@ -119,6 +148,27 @@ export const resumeConstant = [
         <li> An react app that can add and keep track of authenticated users’ contact lists using Google authentication.</li>
         <li>
           Built using React and Firebase.
+        </li>
+      </ul>
+    </div>
+    <div className='end-to-end'>
+      <div className='sub-head left-end'>Contact Book</div>
+      <div className='date right-end'>
+        {' '}
+        <a
+          href={'https://github.com/bipin-pachhai/discord-bot'}
+          target='_blank'
+          rel='noopener noreferrer'
+        >
+         visit
+        </a>
+      </div>
+    </div>
+    <div className='description'>
+      <ul>
+        <li>A bot built using Node.js, PostgreSQL, and discord.js module to automate the calculations of bills and other shared expenses.</li>
+        <li>
+        Capable of storing and displaying the statistics of expenses including total expenses, each member’s share and summary using chart.js and chartjs-node-canvas libraries.
         </li>
       </ul>
     </div>
@@ -180,17 +230,22 @@ export const resumeConstant = [
     <div className ='end-to-end'>
       <div className='sub-head left-end'>Languages:</div>
       <div className= 'description'>
-      Java, JavaScript, Python, Assembly
+      Java, JavaScript, Python, SQL
       </div>  
     </div>
 
     <div className ='end-to-end'>
       <div className='sub-head left-end'>Technologies:</div>
       <div className= 'description'>
-      CSS, Bootstrap, React, node.js, Express.js, MongoDB, Firebase, Docker
+      CSS, Bootstrap, React, Node.js, Express.js, MongoDB, Flutter
       </div>  
     </div>
-    
+    <div className ='end-to-end'>
+      <div className='sub-head left-end'>Tools:</div>
+      <div className= 'description'>
+      Git, GitHub, Docker, Firebase, Google Cloud, Heroku
+      </div>  
+    </div>
     <div className ='end-to-end'>
       <div className='sub-head left-end'>Soft Skills:</div>
       <div className= 'description'>
