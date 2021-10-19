@@ -7,6 +7,16 @@
   align-items: flex-start;
   padding-top: 2rem;
 }
+
+/*react particles design */
+.particles {
+  width: 100vw;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
 .nav-item {
   cursor: pointer !important;
 }

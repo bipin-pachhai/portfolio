@@ -11,28 +11,16 @@ import { awards, certificates } from "../aboutlist";
 import github from "../images/githubdark.png";
 import linkedin from "../images/linkedin.png";
 import email from "../images/emaildark.png";
+import particleConfig from "../config/particle-config";
 import snapchat from "../images/snapchatdark.jpg";
 
 class About extends Component {
   render() {
-    const particleOptions = {
-      particles: {
-        number: {
-          value: 50,
-          density: {
-            enable: true,
-            value_area: 700,
-          },
-        },
-        color: {
-          value: "##00FF00",
-        },
-      },
-    };
+  
 
     return (
       <div className="container-fluid">
-        <Particles className="particles" params={particleOptions} />
+        <Particles className="particles" params={particleConfig} />
         <div className="mt-5">
           <Tab.Container id="left-tabs" defaultActiveKey="skills">
             <Row>

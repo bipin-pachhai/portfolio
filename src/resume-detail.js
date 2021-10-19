@@ -46,7 +46,7 @@ export const resumeConstant = [
       </div>
       <div className='date'> Expected Graduation: May 2023</div>
     </div>
-    <div className='sub-head right-end'> GPA: 3.939/4.0</div>
+    <div className='sub-head right-end'> GPA: 3.95/4.0</div>
     {/* experience */}
     <div className='highlight'>EXPERIENCE</div>
     <div className='end-to-end'>
@@ -145,10 +145,11 @@ export const resumeConstant = [
     </div>
     <div className='description'>
       <ul>
-        <li> An react app that can add and keep track of authenticated users’ contact lists using Google authentication.</li>
+      <li>A bot built using Node.js, PostgreSQL, and discord.js module to automate the calculations of bills and other shared expenses.</li>
         <li>
-          Built using React and Firebase.
+        Capable of storing and displaying the statistics of expenses including total expenses, each member’s share and summary using chart.js and chartjs-node-canvas libraries.
         </li>
+        
       </ul>
     </div>
     <div className='end-to-end'>
@@ -166,10 +167,11 @@ export const resumeConstant = [
     </div>
     <div className='description'>
       <ul>
-        <li>A bot built using Node.js, PostgreSQL, and discord.js module to automate the calculations of bills and other shared expenses.</li>
+      <li> An react app that can add and keep track of authenticated users’ contact lists using Google authentication.</li>
         <li>
-        Capable of storing and displaying the statistics of expenses including total expenses, each member’s share and summary using chart.js and chartjs-node-canvas libraries.
+          Built using React and Firebase.
         </li>
+    
       </ul>
     </div>
     <div className='end-to-end'>

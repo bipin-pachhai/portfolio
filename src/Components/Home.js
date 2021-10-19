@@ -1,6 +1,7 @@
 import React from "react";
 import "./Home.css";
 import Particles from "react-particles-js";
+import particleConfig from "../config/particle-config";
 import Typical from "react-typical";
 import profile from "../images/home.jpg";
 import Typewriter from "typewriter-effect";
@@ -11,24 +12,10 @@ const Home = ({ property }) => {
   const forthline = `return;`;
   const fifthline = `explore();`;
   const sixthline = `}`;
-  const particleOptions = {
-    particles: {
-      number: {
-        value: 50,
-        density: {
-          enable: true,
-          value_area: 700,
-        },
-      },
-      color: {
-        value: "#1F2F3D",
-      },
-    },
-  };
 
   return (
     <div className="container-fluid homepage">
-      <Particles className="particles" params={particleOptions} />
+      <Particles className="particles" params={particleConfig} />
       <div className="row">
         <div className="col-md">
           <div className="home">
@@ -84,6 +71,7 @@ const Home = ({ property }) => {
           </div>
         </div>
       </div>
+      
     </div>
   );
 };

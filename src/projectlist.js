@@ -66,7 +66,7 @@ export const projectlist = {
         "Developed using the concept of Object-Oriented Programming in JavaScript.",
         "Use of Canvas API.",
       ],
-      technology: ["HTML, VanillaJS"],
+      technology: ["HTML", "VanillaJS"],
       githubUrl: "",
       imageUrl: [game],
     },
@@ -105,18 +105,6 @@ export const projectlist = {
       technology: ["BOOTSTRAP", "REACT"],
       githubUrl: "",
       imageUrl: [todo],
-    },
-    {
-      id: 7,
-      title: "Flashapp",
-      description: [
-        "An Android Mobile App developed as a project for Intro to Mobile Product Development Workshop Series offered by Codepath.org",
-        "Allows to toggle between question and answer flash cards.",
-        "Allows to create new questions/answers and save them into local SQlite database.",
-      ],
-      technology: ["JAVA", "ANDROID STUDIO"],
-      githubUrl: "https://github.com/bipin-pachhai/flashapp",
-      imageUrl: [flashapp],
     },
   ],
 };
